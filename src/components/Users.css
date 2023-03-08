@@ -1,0 +1,24 @@
+.users-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.user-container {
+    width: 250px;
+    height: auto;
+    border: 2px solid grey;
+    margin: 10px;
+    padding: 15px;
+}
+.album-button {
+    background: #047898;
+    color: white;
+    padding: 10px;
+    border: 1px solid white;
+}
+.album-button:hover {
+    background: #1596bd;
+}
+.album-button:active {
+    background: #033e50;
+
+}

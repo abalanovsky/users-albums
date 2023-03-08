@@ -1,0 +1,27 @@
+.album-container {
+    width: 500px;
+    padding: 15px;
+    border: 1px solid grey;
+    margin: 5px;
+}
+.main-albums-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.description-text {
+    color: grey;
+    font-size: 13px;
+}
+.open-album-button {
+    background: #099804;
+    color: white;
+    padding: 10px;
+    border: 1px solid white;
+}
+.open-album-button:hover {
+    background: #0dbe07;
+}
+.open-album-button:active {
+    background: #067202;
+
+}
